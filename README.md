@@ -35,7 +35,7 @@ tail -n 10 /var/log/auth.log >> $LOGFILE
 If we want to put the whole log file, we use the cat command. To extract specific information, we use awk. Here, we extract only the last 10 lines of each log file.
 
 # Task 4: Protect the File with Access Controls
-Step 1: Set File Permissions
+## Step 1: Set File Permissions
 We protect the file using access controls. In this case, we use chmod:
 
 chmod 600 $LOGFILE
@@ -43,25 +43,25 @@ This command gives read and write access to the current user, but no access to t
 
 ## Step 2: Make the Script Executable
 Exit out of the text editor to make this file executable:
-
 emacs logtest.sh
-Step 3: Set Execute Permission
+
+## Step 3: Set Execute Permission
 Next, type:
-
 chmod +x logtest.sh
-Step 4: Run the Script
+
+## Step 4: Run the Script
 Now, type:
-
 ./logtest.sh
-Step 5: Verify the Created File
-To view the created file, type:
 
+## Step 5: Verify the Created File
+To view the created file, type:
 ls
 You should see the file YYYY-MM-DD_stuff.log.
 
 # Step 6: View the Content of the Log File
 To view the content of the file, type:
-
 cat YYYY-MM-DD_stuff.log
-You will see the results extracted using the tail commands appended to the file. This concludes the exercise on scripting for analysis.
+You will see the results extracted using the tail commands appended to the file. 
+
+This concludes the exercise on scripting for analysis.
 
