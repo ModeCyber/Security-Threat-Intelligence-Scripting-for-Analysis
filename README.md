@@ -59,5 +59,7 @@ To view the content of the file, type:
 cat YYYY-MM-DD_stuff.log
 You will see the results extracted using the tail commands appended to the file. 
 
-This concludes the exercise on scripting for analysis.
+This concludes the exercise on scripting for analysis
+
+[Security-Threat-Intelligence-Scripting-for-Analysis.pdf](https://github.com/user-attachments/files/16240449/Security-Threat-Intelligence-Scripting-for-Analysis.pdf)
 
